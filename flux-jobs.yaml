@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
   name: flux-jobs
-  namespace: default
+  namespace: test
 spec:
   interval: 5m
   url: https://github.com/bkuzmic/flux-jobs
