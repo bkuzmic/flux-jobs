@@ -14,5 +14,5 @@ spec:
           - sh
           - -c
           - echo "starting db migration"
-          - sleep 5
+          - sleep 7
           - echo "complete"
